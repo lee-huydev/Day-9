@@ -49,22 +49,22 @@
 //! HW5
 let myArr = [9, 100, 2, 50, 4, 100, 22, 34];
 // a/ So chia het cho 2
-myArr.forEach(function (element) {
+myArr.forEach((element) => {
    if (element % 2 == 0) {
       console.log(element);
    }
 });
 // b/ Tim cac so lon hon 7
-let value = myArr.filter(function (value) {
+let value = myArr.filter((value) => {
    return value > 7;
 });
 console.log(value);
 // c/ Tim cac so nho hon 5
-let value2 = myArr.filter(function (x) {
+let value2 = myArr.filter((x) => {
    return x < 5;
 });
 console.log(value2);
 // d/ Tim cac so nho hon 50 va nhan doi so dol len
-myArr.map(function (number) {
+myArr.map((number) => {
    if (number < 50) console.log(number * 2);
 });
